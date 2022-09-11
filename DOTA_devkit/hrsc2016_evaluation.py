@@ -273,7 +273,7 @@ def voc_eval(detpath,
 
 
 def main():
-    detpath = r'/your_ReDet_path/work_dirs/Task1_{:s}.txt'
+    detpath = r'work_dirs/ReDet_re50_refpn_3x_hrsc2016/Task1_results/Task1_{:s}.txt'
     annopath = r'data/HRSC2016/Test/labelTxt/{:s}.txt'  # change the directory to the path of val/labelTxt, if you want to do evaluation on the valset
     imagesetfile = r'data/HRSC2016/Test/test.txt'
 
