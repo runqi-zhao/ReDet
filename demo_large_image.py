@@ -133,11 +133,11 @@ class DetectorModel():
 
 if __name__ == '__main__':
     model = DetectorModel(
-        r"configs/ReDet/ReDet_re50_refpn_1x_dota15_ms.py",
-        r"work_dirs/ReDet_re50_refpn_1x_dota15_ms/ReDet_re50_refpn_1x_dota15_ms-9d1a523c.pth")
+        r"configs/ReDet/ReDet_re50_refpn_3x_hrsc2016.py",
+        r"work_dirs/ReDet_re50_refpn_3x_hrsc2016/ReDet_re50_refpn_3x_hrsc2016-d1b4bd29.pth")
 
-    img_dir = "your_path_to_img_dir"
-    out_dir = 'your_path_to_save_results'
+    img_dir = "byHand/largeImage"
+    out_dir = 'byHand'
     img_names = os.listdir(img_dir)
     for img_name in img_names:
         print(img_name)
